@@ -6,8 +6,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "echo 'Hola esto es una prueba'",
-    "server": "nodemon --inspect ./src/server.js -p 3030"
+    "build": "npm install",
+    "server": "node server.js"
   },
   "keywords": [],
   "license": "ISC",
