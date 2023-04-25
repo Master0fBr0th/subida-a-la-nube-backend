@@ -4,7 +4,7 @@ const Schema = new mongoose.Schema({
     title: {
         type: String,
         required: true,
-        max: 100
+        max: 120
     },
     timestamp: {
         type: Date,
@@ -17,22 +17,22 @@ const Schema = new mongoose.Schema({
     description: {
         type: String,
         required: true,
-        max: 500
+        max: 1500
     },
     code: {
         type: String,
         required: true,
-        max: 6,
+        max: 8,
         unique: true
     },
     image: {
         type: String,
-        max: 200
+        max: 100
     },
     stock: {
         type: Number,
         required: true,
-        max: 5000
+        max: 8000
     }
 })
 

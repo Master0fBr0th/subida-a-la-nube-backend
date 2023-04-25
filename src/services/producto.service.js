@@ -1,16 +1,28 @@
-import "../config/db.js";
-import { ProductosModel } from "../modules/productos.modules.js";
-import logger from "../loggers/Log4jsLogger.js";
+import { ProductosModel } from "../models/productos.model.js";
+import {BaseDao} from "./BaseDao.js";
 
-export class ProductoDao {
+export class ProductoService extends BaseDao{
 
     ID_FIELD = "_id";
+
+    static getInstance() {
+        return new ProductoService();
+    }
+
+    constructor() {
+        if(typeof ProductoService.instance === 'object') {
+            return ProductoService.instance;
+        }
+        super();
+        ProductoService.instance = this;
+        return this;
+    }
     
     static async exists(id) {
         try {
             return await ProductosModel.findById(id);
         } catch (error) {
-            logger.error(error);
+            this.logger.error(error);
         }
     }
 
@@ -18,7 +30,7 @@ export class ProductoDao {
         try {
             return await ProductosModel.find();
         } catch (error) {
-            logger.error(error);
+            this.logger.error(error);
             return false;
         }
     }
@@ -30,16 +42,16 @@ export class ProductoDao {
             })
             return product;
         } catch (error) {
-            logger.error(error);
+            this.logger.error(error);
             return false;
         }
     }
     
-    async createProduct(object) {
+    async create(object) {
         try {
             return await ProductosModel.create(object)
         } catch (error) {
-            logger.error(error);
+            this.logger.error(error);
             return false;
         }
     }
@@ -56,16 +68,16 @@ export class ProductoDao {
                 })
             return true;
         } catch (error) {
-            logger.error(error);
+            this.logger.error(error);
             return false;
         }
     }
     
-    async deleteProductById(id) {
+    async deleteById(id) {
         try {
             return await ProductosModel.findByIdAndDelete({[this.ID_FIELD]: id})
         } catch (error) {
-            logger.error(error);
+            this.logger.error(error);
             return false;
         }
     }

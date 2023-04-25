@@ -22,4 +22,4 @@ function run(url) {
 }
 
 console.log('Running tests')
-run('http://localhost:232323/test/info');
+run('http://localhost:2323/test/info');

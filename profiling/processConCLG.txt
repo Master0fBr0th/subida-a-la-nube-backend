@@ -2,7 +2,7 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
 
  [Shared libraries]:
    ticks  total  nonlib   name
-   1310   81.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+   1310   81.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
      28    1.7%          /usr/lib/x86_64-linux-gnu/libc-2.31.so
       8    0.5%          /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
 
@@ -26,7 +26,7 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1    0.1%    0.4%  Function: ^compileFunction node:vm:308:25
       1    0.1%    0.4%  Function: ^Module._load node:internal/modules/cjs/loader:757:24
       1    0.1%    0.4%  Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
-      1    0.1%    0.4%  Function: ^IPv4 /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/ipaddr.js/lib/ipaddr.js:57:18
+      1    0.1%    0.4%  Function: ^IPv4 /home/franco/Desktop/Backend/Entrega-29/node_modules/ipaddr.js/lib/ipaddr.js:57:18
       1    0.1%    0.4%  Function: *wasm-function[15]
 
  [C++]:
@@ -102,8 +102,8 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
   Callers occupying less than 1.0% are not shown.
 
    ticks parent  name
-   1310   81.0%  /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-   1050   80.2%    /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+   1310   81.0%  /home/franco/.nvm/versions/node/v16.13.1/bin/node
+   1050   80.2%    /home/franco/.nvm/versions/node/v16.13.1/bin/node
     560   53.3%      Function: ^compileFunction node:vm:308:25
     558   99.6%        Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
     556   99.6%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
@@ -166,7 +166,7 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       2   40.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
       1   50.0%            LazyCompile: ~Module._load node:internal/modules/cjs/loader:757:24
       1   50.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
-     41    3.9%      /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+     41    3.9%      /home/franco/.nvm/versions/node/v16.13.1/bin/node
       6   14.6%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
       5   83.3%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
       4   80.0%            Function: ^trySelf node:internal/modules/cjs/loader:441:17
@@ -180,48 +180,48 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       2  100.0%          LazyCompile: ~isIP node:internal/net:39:14
       1   50.0%            LazyCompile: ~lookupAndConnect node:net:995:26
       1   50.0%            LazyCompile: ~lookup node:dns:97:16
-      1    2.4%        LazyCompile: ~startSession /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:342:17
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/operations/execute_operation.js:16:48
-      1  100.0%            LazyCompile: ~maybePromise /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/utils.js:397:22
+      1    2.4%        LazyCompile: ~startSession /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:342:17
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/operations/execute_operation.js:16:48
+      1  100.0%            LazyCompile: ~maybePromise /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/utils.js:397:22
       1    2.4%        LazyCompile: ~set pathname node:internal/url:884:15
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
       1  100.0%            LazyCompile: ~pathToFileURL node:internal/url:1455:23
       1    2.4%        LazyCompile: ~resolveExports node:internal/modules/cjs/loader:472:24
       1  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
       1  100.0%            LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
-      1    2.4%        LazyCompile: ~populateMaps /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mime-types/index.js:154:23
-      1  100.0%          Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mime-types/index.js:1:1
+      1    2.4%        LazyCompile: ~populateMaps /home/franco/Desktop/Backend/Entrega-29/node_modules/mime-types/index.js:154:23
+      1  100.0%          Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mime-types/index.js:1:1
       1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
-      1    2.4%        LazyCompile: ~parseOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
-      1  100.0%          LazyCompile: ~MongoClient /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:781:31
-      1    2.4%        LazyCompile: ~isValid /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/read_preference.js:133:19
-      1  100.0%          LazyCompile: ~ReadPreference /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/read_preference.js:26:16
-      1  100.0%            Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/read_preference.js:1:1
-      1    2.4%        LazyCompile: ~isNumber /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/minimist/index.js:240:19
-      1  100.0%          LazyCompile: ~setArg /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/minimist/index.js:54:21
-      1  100.0%            LazyCompile: ~module.exports /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/minimist/index.js:1:27
-      1    2.4%        LazyCompile: ~get hasKnownServers /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology_description.js:224:24
-      1  100.0%          LazyCompile: ~shouldCheckForSessionSupport /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:329:33
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/operations/execute_operation.js:16:48
-      1    2.4%        LazyCompile: ~exports.install /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/URLSearchParams.js:96:19
-      1  100.0%          Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/index.js:1:1
+      1    2.4%        LazyCompile: ~parseOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
+      1  100.0%          LazyCompile: ~MongoClient /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:781:31
+      1    2.4%        LazyCompile: ~isValid /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/read_preference.js:133:19
+      1  100.0%          LazyCompile: ~ReadPreference /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/read_preference.js:26:16
+      1  100.0%            Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/read_preference.js:1:1
+      1    2.4%        LazyCompile: ~isNumber /home/franco/Desktop/Backend/Entrega-29/node_modules/minimist/index.js:240:19
+      1  100.0%          LazyCompile: ~setArg /home/franco/Desktop/Backend/Entrega-29/node_modules/minimist/index.js:54:21
+      1  100.0%            LazyCompile: ~module.exports /home/franco/Desktop/Backend/Entrega-29/node_modules/minimist/index.js:1:27
+      1    2.4%        LazyCompile: ~get hasKnownServers /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology_description.js:224:24
+      1  100.0%          LazyCompile: ~shouldCheckForSessionSupport /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:329:33
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/operations/execute_operation.js:16:48
+      1    2.4%        LazyCompile: ~exports.install /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/URLSearchParams.js:96:19
+      1  100.0%          Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/index.js:1:1
       1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
-      1    2.4%        LazyCompile: ~SchemaTypeOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/options/SchemaTypeOptions.js:18:14
-      1  100.0%          LazyCompile: ~SchemaStringOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/options/SchemaStringOptions.js:18:1
-      1  100.0%            LazyCompile: ~SchemaType /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/schematype.js:42:20
+      1    2.4%        LazyCompile: ~SchemaTypeOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/options/SchemaTypeOptions.js:18:14
+      1  100.0%          LazyCompile: ~SchemaStringOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/options/SchemaStringOptions.js:18:1
+      1  100.0%            LazyCompile: ~SchemaType /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/schematype.js:42:20
       1    2.4%        LazyCompile: ~Duplex node:internal/streams/duplex:52:16
       1  100.0%          LazyCompile: ~Socket node:net:283:16
       1  100.0%            LazyCompile: ~WriteStream node:tty:85:21
-      1    2.4%        LazyCompile: ~Connection.collection /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:1022:43
-      1  100.0%          LazyCompile: ~compile /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/model.js:4802:33
-      1  100.0%            LazyCompile: ~Mongoose._model /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/index.js:535:37
-      1    2.4%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/pluralize.js:86:34
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            LazyCompile: ~pluralize /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/pluralize.js:82:19
-      1    2.4%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:78:43
-      1  100.0%          LazyCompile: ~prepareHandshakeDocument /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:146:34
-      1  100.0%            LazyCompile: ~performInitialHandshake /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:62:33
+      1    2.4%        LazyCompile: ~Connection.collection /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:1022:43
+      1  100.0%          LazyCompile: ~compile /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/model.js:4802:33
+      1  100.0%            LazyCompile: ~Mongoose._model /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/index.js:535:37
+      1    2.4%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/pluralize.js:86:34
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            LazyCompile: ~pluralize /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/pluralize.js:82:19
+      1    2.4%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:78:43
+      1  100.0%          LazyCompile: ~prepareHandshakeDocument /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:146:34
+      1  100.0%            LazyCompile: ~performInitialHandshake /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:62:33
       1    2.4%        LazyCompile: *realpathSync node:fs:2408:22
       1  100.0%          Function: ^toRealPath node:internal/modules/cjs/loader:393:20
       1  100.0%            Function: ^tryFile node:internal/modules/cjs/loader:384:17
@@ -231,13 +231,13 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1    2.4%        Function: ~<anonymous> node:internal/crypto/keys:1:1
       1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
       1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
-      1    2.4%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/streamroller/node_modules/fs-extra/lib/fs/index.js:1:1
+      1    2.4%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/streamroller/node_modules/fs-extra/lib/fs/index.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
-      1    2.4%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mquery/lib/mquery.js:1:1
+      1    2.4%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mquery/lib/mquery.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
-      1    2.4%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/graceful-fs/polyfills.js:1:1
+      1    2.4%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/graceful-fs/polyfills.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1    2.4%        Function: ^stat node:internal/modules/cjs/loader:151:14
@@ -265,9 +265,9 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1    2.4%        Function: ^Module node:internal/modules/cjs/loader:172:16
       1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
       1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:997:36
-      1    2.4%        Function: ^<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/pluralize.js:86:34
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            LazyCompile: ~pluralize /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/pluralize.js:82:19
+      1    2.4%        Function: ^<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/pluralize.js:86:34
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            LazyCompile: ~pluralize /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/pluralize.js:82:19
      22    2.1%      LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
      22  100.0%        LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
       3   13.6%          LazyCompile: ~initializeCJSLoader node:internal/bootstrap/pre_execution:421:29
@@ -309,30 +309,30 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1  100.0%            LazyCompile: ~Module._load node:internal/modules/cjs/loader:757:24
 
      97    6.0%  __write
-     79   81.4%    /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      9   11.4%      /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1   11.1%        Script: ~<anonymous> file:///home/franco-medina/Desktop/Backend/Entrega-16/src/loggers/Log4jsLogger.js:1:1
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+     79   81.4%    /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      9   11.4%      /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1   11.1%        Script: ~<anonymous> file:///home/franco/Desktop/Backend/Entrega-29/src/loggers/Log4jsLogger.js:1:1
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
       1   11.1%        LazyCompile: ~URL node:internal/url:620:14
       1  100.0%          LazyCompile: ~pathToFileURL node:internal/url:1455:23
       1  100.0%            LazyCompile: ~<anonymous> node:internal/modules/run_main:47:29
-      1   11.1%        LazyCompile: ~Kareem.filter /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/kareem/index.js:321:35
-      1  100.0%          LazyCompile: ~applyStaticHooks /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/model/applyStaticHooks.js:6:43
-      1  100.0%            LazyCompile: ~compile /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/model.js:4802:33
-      1   11.1%        LazyCompile: ~Connection.openUri /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:675:40
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/index.js:341:49
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:22
-      1   11.1%        LazyCompile: ~CaseInsensitiveMap /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/connection_string.js:188:16
-      1  100.0%          Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/connection_string.js:1:1
+      1   11.1%        LazyCompile: ~Kareem.filter /home/franco/Desktop/Backend/Entrega-29/node_modules/kareem/index.js:321:35
+      1  100.0%          LazyCompile: ~applyStaticHooks /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/model/applyStaticHooks.js:6:43
+      1  100.0%            LazyCompile: ~compile /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/model.js:4802:33
+      1   11.1%        LazyCompile: ~Connection.openUri /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:675:40
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/index.js:341:49
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:22
+      1   11.1%        LazyCompile: ~CaseInsensitiveMap /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/connection_string.js:188:16
+      1  100.0%          Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/connection_string.js:1:1
       1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
-      1   11.1%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/streamroller/node_modules/debug/src/node.js:1:1
+      1   11.1%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/streamroller/node_modules/debug/src/node.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
-      1   11.1%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/aggregate.js:1:1
+      1   11.1%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/aggregate.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
-      1   11.1%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/express/lib/router/index.js:1:1
+      1   11.1%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/express/lib/router/index.js:1:1
       1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
       3    3.8%      LazyCompile: ~realpathSync node:fs:2408:22
@@ -341,99 +341,99 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       3  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
       3    3.8%      LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:22:36
       3  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
-      2    2.5%      Script: ~<anonymous> file:///home/franco-medina/Desktop/Backend/Entrega-16/src/server.js:1:1
-      2  100.0%        /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      2  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+      2    2.5%      Script: ~<anonymous> file:///home/franco/Desktop/Backend/Entrega-29/src/server.js:1:1
+      2  100.0%        /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      2  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
       2  100.0%            LazyCompile: ~run node:internal/modules/esm/module_job:180:12
       2    2.5%      Function: ~<anonymous> node:internal/fs/promises:1:1
       2  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
       2  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
       2  100.0%            Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
-      1    1.3%      LazyCompile: ~utf8PercentEncodeCodePointInternal /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/percent-encoding.js:97:44
-      1  100.0%        LazyCompile: ~utf8PercentEncodeString /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/percent-encoding.js:118:33
-      1  100.0%          LazyCompile: ~parseOpaqueHost /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/url-state-machine.js:379:25
-      1  100.0%            LazyCompile: ~parseHost /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/url-state-machine.js:328:19
-      1    1.3%      LazyCompile: ~urlencoded /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/body-parser/lib/types/urlencoded.js:43:21
-      1  100.0%        Script: ~<anonymous> file:///home/franco-medina/Desktop/Backend/Entrega-16/src/server.js:1:1
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+      1    1.3%      LazyCompile: ~utf8PercentEncodeCodePointInternal /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/percent-encoding.js:97:44
+      1  100.0%        LazyCompile: ~utf8PercentEncodeString /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/percent-encoding.js:118:33
+      1  100.0%          LazyCompile: ~parseOpaqueHost /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/url-state-machine.js:379:25
+      1  100.0%            LazyCompile: ~parseHost /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/url-state-machine.js:328:19
+      1    1.3%      LazyCompile: ~urlencoded /home/franco/Desktop/Backend/Entrega-29/node_modules/body-parser/lib/types/urlencoded.js:43:21
+      1  100.0%        Script: ~<anonymous> file:///home/franco/Desktop/Backend/Entrega-29/src/server.js:1:1
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
       1    1.3%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
       1  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
       1  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
       1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
-      1    1.3%      LazyCompile: ~toBin /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:82:10
-      1  100.0%        LazyCompile: ~writeCommand /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:35:17
-      1  100.0%          LazyCompile: ~write /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:513:15
-      1  100.0%            LazyCompile: ~command /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:247:12
-      1    1.3%      LazyCompile: ~toBin /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:496:10
-      1  100.0%        LazyCompile: ~writeCommand /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:35:17
-      1  100.0%          LazyCompile: ~write /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:513:15
-      1  100.0%            LazyCompile: ~command /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:247:12
+      1    1.3%      LazyCompile: ~toBin /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:82:10
+      1  100.0%        LazyCompile: ~writeCommand /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:35:17
+      1  100.0%          LazyCompile: ~write /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:513:15
+      1  100.0%            LazyCompile: ~command /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:247:12
+      1    1.3%      LazyCompile: ~toBin /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:496:10
+      1  100.0%        LazyCompile: ~writeCommand /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:35:17
+      1  100.0%          LazyCompile: ~write /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:513:15
+      1  100.0%            LazyCompile: ~command /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:247:12
       1    1.3%      LazyCompile: ~setupTraceCategoryState node:internal/bootstrap/pre_execution:221:33
       1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:22:36
       1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
       1    1.3%      LazyCompile: ~setupDebugEnv node:internal/bootstrap/pre_execution:193:23
       1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:22:36
       1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
-      1    1.3%      LazyCompile: ~setOption /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:396:19
-      1  100.0%        LazyCompile: ~parseOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
-      1  100.0%          LazyCompile: ~MongoClient /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:781:31
+      1    1.3%      LazyCompile: ~setOption /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:396:19
+      1  100.0%        LazyCompile: ~parseOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
+      1  100.0%          LazyCompile: ~MongoClient /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:781:31
       1    1.3%      LazyCompile: ~set pathname node:internal/url:884:15
-      1  100.0%        /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%        /home/franco/.nvm/versions/node/v16.13.1/bin/node
       1  100.0%          LazyCompile: ~pathToFileURL node:internal/url:1455:23
       1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
-      1    1.3%      LazyCompile: ~serializeInto /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/parser/serializer.js:550:23
-      1  100.0%        LazyCompile: ~serialize /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/bson.js:111:19
-      1  100.0%          LazyCompile: ~toBin /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:82:10
-      1  100.0%            LazyCompile: ~writeCommand /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:35:17
-      1    1.3%      LazyCompile: ~resolveOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/utils.js:740:24
-      1  100.0%        LazyCompile: ~createIndex /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/collection.js:254:16
-      1  100.0%          LazyCompile: ~setAutoRemove /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/connect-mongo/build/main/lib/MongoStore.js:138:18
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
+      1    1.3%      LazyCompile: ~serializeInto /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/parser/serializer.js:550:23
+      1  100.0%        LazyCompile: ~serialize /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/bson.js:111:19
+      1  100.0%          LazyCompile: ~toBin /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:82:10
+      1  100.0%            LazyCompile: ~writeCommand /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:35:17
+      1    1.3%      LazyCompile: ~resolveOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/utils.js:740:24
+      1  100.0%        LazyCompile: ~createIndex /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/collection.js:254:16
+      1  100.0%          LazyCompile: ~setAutoRemove /home/franco/Desktop/Backend/Entrega-29/node_modules/connect-mongo/build/main/lib/MongoStore.js:138:18
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
       1    1.3%      LazyCompile: ~readSync node:fs:684:18
       1  100.0%        LazyCompile: ~tryReadSync node:fs:429:21
       1  100.0%          LazyCompile: ~readFileSync node:fs:450:22
       1  100.0%            LazyCompile: ~cjsPreparseModuleExports node:internal/modules/esm/translators:212:34
-      1    1.3%      LazyCompile: ~proto.<computed> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/express/lib/router/index.js:514:27
-      1  100.0%        Script: ~<anonymous> file:///home/franco-medina/Desktop/Backend/Entrega-16/src/routes/product.js:1:1
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1    1.3%      LazyCompile: ~processIncomingData /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/message_stream.js:84:29
-      1  100.0%        LazyCompile: ~_write /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/message_stream.js:31:11
+      1    1.3%      LazyCompile: ~proto.<computed> /home/franco/Desktop/Backend/Entrega-29/node_modules/express/lib/router/index.js:514:27
+      1  100.0%        Script: ~<anonymous> file:///home/franco/Desktop/Backend/Entrega-29/src/routes/product.js:1:1
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1    1.3%      LazyCompile: ~processIncomingData /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/message_stream.js:84:29
+      1  100.0%        LazyCompile: ~_write /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/message_stream.js:31:11
       1  100.0%          LazyCompile: ~writeOrBuffer node:internal/streams/writable:365:23
       1  100.0%            LazyCompile: ~_write node:internal/streams/writable:283:16
       1    1.3%      LazyCompile: ~popAsyncContext node:internal/async_hooks:543:25
       1  100.0%        LazyCompile: ~emitAfterScript node:internal/async_hooks:507:25
       1  100.0%          LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:68:35
-      1    1.3%      LazyCompile: ~patch /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/graceful-fs/graceful-fs.js:102:16
-      1  100.0%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/graceful-fs/graceful-fs.js:1:1
+      1    1.3%      LazyCompile: ~patch /home/franco/Desktop/Backend/Entrega-29/node_modules/graceful-fs/graceful-fs.js:102:16
+      1  100.0%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/graceful-fs/graceful-fs.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1    1.3%      LazyCompile: ~parsePackageName node:internal/modules/esm/resolve:795:26
       1  100.0%        LazyCompile: ~packageResolve node:internal/modules/esm/resolve:838:24
       1  100.0%          LazyCompile: ~moduleResolve node:internal/modules/esm/resolve:917:23
       1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
-      1    1.3%      LazyCompile: ~parseOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/connection_string.js:204:22
-      1  100.0%        LazyCompile: ~MongoClient /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/mongo_client.js:60:16
-      1  100.0%          LazyCompile: ~connect /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/mongo_client.js:189:19
-      1  100.0%            LazyCompile: ~MongoStore /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/connect-mongo/build/main/lib/MongoStore.js:75:16
-      1    1.3%      LazyCompile: ~parseIndexOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/utils.js:75:27
-      1  100.0%        LazyCompile: ~makeIndexSpec /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/operations/indexes.js:39:23
-      1  100.0%          LazyCompile: ~CreateIndexOperation /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/operations/indexes.js:119:16
-      1  100.0%            LazyCompile: ~createIndex /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/collection.js:254:16
-      1    1.3%      LazyCompile: ~parseHostName /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/url-state-machine.js:773:65
-      1  100.0%        LazyCompile: ~URLStateMachine /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/url-state-machine.js:481:25
-      1  100.0%          LazyCompile: ~module.exports.basicURLParse /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/url-state-machine.js:1206:41
-      1  100.0%            LazyCompile: ~URLImpl /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/URL-impl.js:7:14
+      1    1.3%      LazyCompile: ~parseOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/connection_string.js:204:22
+      1  100.0%        LazyCompile: ~MongoClient /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%          LazyCompile: ~connect /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/mongo_client.js:189:19
+      1  100.0%            LazyCompile: ~MongoStore /home/franco/Desktop/Backend/Entrega-29/node_modules/connect-mongo/build/main/lib/MongoStore.js:75:16
+      1    1.3%      LazyCompile: ~parseIndexOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/utils.js:75:27
+      1  100.0%        LazyCompile: ~makeIndexSpec /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/operations/indexes.js:39:23
+      1  100.0%          LazyCompile: ~CreateIndexOperation /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/operations/indexes.js:119:16
+      1  100.0%            LazyCompile: ~createIndex /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/collection.js:254:16
+      1    1.3%      LazyCompile: ~parseHostName /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/url-state-machine.js:773:65
+      1  100.0%        LazyCompile: ~URLStateMachine /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/url-state-machine.js:481:25
+      1  100.0%          LazyCompile: ~module.exports.basicURLParse /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/url-state-machine.js:1206:41
+      1  100.0%            LazyCompile: ~URLImpl /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/URL-impl.js:7:14
       1    1.3%      LazyCompile: ~nextTick node:internal/process/task_queues:104:18
       1  100.0%        LazyCompile: ~construct node:internal/streams/destroy:225:19
       1  100.0%          LazyCompile: ~Writable node:internal/streams/writable:219:18
       1  100.0%            LazyCompile: ~WriteStream node:internal/fs/streams:306:21
-      1    1.3%      LazyCompile: ~makeInterruptibleAsyncInterval /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/utils.js:647:40
-      1  100.0%        LazyCompile: ~connect /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sdam/monitor.js:84:12
-      1  100.0%          LazyCompile: ~connect /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sdam/server.js:97:12
-      1  100.0%            LazyCompile: ~createAndConnectServer /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sdam/topology.js:514:32
+      1    1.3%      LazyCompile: ~makeInterruptibleAsyncInterval /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/utils.js:647:40
+      1  100.0%        LazyCompile: ~connect /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sdam/monitor.js:84:12
+      1  100.0%          LazyCompile: ~connect /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sdam/server.js:97:12
+      1  100.0%            LazyCompile: ~createAndConnectServer /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sdam/topology.js:514:32
       1    1.3%      LazyCompile: ~listOnTimeout node:internal/timers:505:25
       1  100.0%        LazyCompile: ~processTimers node:internal/timers:485:25
       1    1.3%      LazyCompile: ~getPackageScopeConfig node:internal/modules/esm/resolve:247:31
@@ -443,234 +443,234 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1    1.3%      LazyCompile: ~getMessage node:internal/errors:410:20
       1  100.0%        Function: ^NodeError node:internal/errors:342:28
       1  100.0%          LazyCompile: ~onParseError node:internal/url:551:22
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1    1.3%      LazyCompile: ~getGlobal /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/utils/global.js:9:19
-      1  100.0%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/map.js:1:1
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1    1.3%      LazyCompile: ~getGlobal /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/utils/global.js:9:19
+      1  100.0%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/map.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
-      1    1.3%      LazyCompile: ~get isSRV /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb-connection-string-url/lib/index.js:162:14
-      1  100.0%        LazyCompile: ~ConnectionString /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb-connection-string-url/lib/index.js:82:16
-      1  100.0%          LazyCompile: ~parseOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
-      1  100.0%            LazyCompile: ~MongoClient /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
+      1    1.3%      LazyCompile: ~get isSRV /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb-connection-string-url/lib/index.js:162:14
+      1  100.0%        LazyCompile: ~ConnectionString /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb-connection-string-url/lib/index.js:82:16
+      1  100.0%          LazyCompile: ~parseOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
+      1  100.0%            LazyCompile: ~MongoClient /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
       1    1.3%      LazyCompile: ~fork node:child_process:114:14
-      1  100.0%        Script: ~<anonymous> file:///home/franco-medina/Desktop/Backend/Entrega-16/src/routes/other.js:1:1
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1    1.3%      LazyCompile: ~depd /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/depd/index.js:105:15
-      1  100.0%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/body-parser/index.js:1:1
+      1  100.0%        Script: ~<anonymous> file:///home/franco/Desktop/Backend/Entrega-29/src/routes/other.js:1:1
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1    1.3%      LazyCompile: ~depd /home/franco/Desktop/Backend/Entrega-29/node_modules/depd/index.js:105:15
+      1  100.0%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/body-parser/index.js:1:1
       1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1    1.3%      LazyCompile: ~defaultLoad node:internal/modules/esm/load:7:27
       1  100.0%        LazyCompile: ~load node:internal/modules/esm/loader:297:13
       1  100.0%          LazyCompile: ~moduleProvider node:internal/modules/esm/loader:229:28
       1  100.0%            LazyCompile: ~ModuleJob node:internal/modules/esm/module_job:55:14
-      1    1.3%      LazyCompile: ~debug /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/streamroller/node_modules/debug/src/common.js:66:17
-      1  100.0%        LazyCompile: ~RollingFileWriteStream /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/streamroller/lib/RollingFileWriteStream.js:40:14
-      1  100.0%          LazyCompile: ~RollingFileStream /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/streamroller/lib/RollingFileStream.js:5:14
-      1  100.0%            LazyCompile: ~openTheStream /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/appenders/file.js:51:25
-      1    1.3%      LazyCompile: ~createTopology /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:44:24
-      1  100.0%        LazyCompile: ~connect /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:8:17
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:126:52
-      1  100.0%            LazyCompile: ~maybePromise /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/utils.js:397:22
-      1    1.3%      LazyCompile: ~connectHandler /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:298:28
+      1    1.3%      LazyCompile: ~debug /home/franco/Desktop/Backend/Entrega-29/node_modules/streamroller/node_modules/debug/src/common.js:66:17
+      1  100.0%        LazyCompile: ~RollingFileWriteStream /home/franco/Desktop/Backend/Entrega-29/node_modules/streamroller/lib/RollingFileWriteStream.js:40:14
+      1  100.0%          LazyCompile: ~RollingFileStream /home/franco/Desktop/Backend/Entrega-29/node_modules/streamroller/lib/RollingFileStream.js:5:14
+      1  100.0%            LazyCompile: ~openTheStream /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/appenders/file.js:51:25
+      1    1.3%      LazyCompile: ~createTopology /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:44:24
+      1  100.0%        LazyCompile: ~connect /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:8:17
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:126:52
+      1  100.0%            LazyCompile: ~maybePromise /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/utils.js:397:22
+      1    1.3%      LazyCompile: ~connectHandler /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:298:28
       1  100.0%        LazyCompile: ~onceWrapper node:events:504:21
       1  100.0%          Function: ^emit node:events:340:44
       1  100.0%            LazyCompile: ~afterConnect node:net:1119:22
-      1    1.3%      LazyCompile: ~connectHandler /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:305:28
+      1    1.3%      LazyCompile: ~connectHandler /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:305:28
       1  100.0%        LazyCompile: ~onceWrapper node:events:504:21
       1  100.0%          Function: ^emit node:events:340:44
       1  100.0%            LazyCompile: ~afterConnect node:net:1119:22
-      1    1.3%      LazyCompile: ~configure /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/configuration.js:37:19
-      1  100.0%        LazyCompile: ~configure /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/log4js.js:59:19
-      1  100.0%          Script: ~<anonymous> file:///home/franco-medina/Desktop/Backend/Entrega-16/src/loggers/Log4jsLogger.js:1:1
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1    1.3%      LazyCompile: ~config /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/dotenv/lib/main.js:55:17
-      1  100.0%        Script: ~<anonymous> file:///home/franco-medina/Desktop/Backend/Entrega-16/src/config/db.js:1:1
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1    1.3%      LazyCompile: ~command /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:247:12
-      1  100.0%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:78:43
-      1  100.0%          LazyCompile: ~prepareHandshakeDocument /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:139:34
-      1  100.0%            LazyCompile: ~performInitialHandshake /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:62:33
+      1    1.3%      LazyCompile: ~configure /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/configuration.js:37:19
+      1  100.0%        LazyCompile: ~configure /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/log4js.js:59:19
+      1  100.0%          Script: ~<anonymous> file:///home/franco/Desktop/Backend/Entrega-29/src/loggers/Log4jsLogger.js:1:1
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1    1.3%      LazyCompile: ~config /home/franco/Desktop/Backend/Entrega-29/node_modules/dotenv/lib/main.js:55:17
+      1  100.0%        Script: ~<anonymous> file:///home/franco/Desktop/Backend/Entrega-29/src/config/db.js:1:1
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1    1.3%      LazyCompile: ~command /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:247:12
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:78:43
+      1  100.0%          LazyCompile: ~prepareHandshakeDocument /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:139:34
+      1  100.0%            LazyCompile: ~performInitialHandshake /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:62:33
       1    1.3%      LazyCompile: ~Stats node:internal/fs/utils:495:15
       1  100.0%        LazyCompile: ~getStatsFromBinding node:internal/fs/utils:530:29
       1  100.0%          LazyCompile: ~statSync node:fs:1528:18
       1  100.0%            LazyCompile: ~tryStatSync node:internal/modules/esm/resolve:183:3
-      1    1.3%      LazyCompile: ~ServerSession /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sessions.js:540:16
-      1  100.0%        LazyCompile: ~acquire /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sessions.js:611:12
-      1  100.0%          LazyCompile: ~get serverSession /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sessions.js:85:22
-      1  100.0%            LazyCompile: ~applySession /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sessions.js:664:22
+      1    1.3%      LazyCompile: ~ServerSession /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sessions.js:540:16
+      1  100.0%        LazyCompile: ~acquire /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sessions.js:611:12
+      1  100.0%          LazyCompile: ~get serverSession /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sessions.js:85:22
+      1  100.0%            LazyCompile: ~applySession /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sessions.js:664:22
       1    1.3%      LazyCompile: ~Readable.removeAllListeners node:internal/streams/readable:923:49
-      1  100.0%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:299:37
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            LazyCompile: ~connectHandler /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:298:28
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:299:37
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            LazyCompile: ~connectHandler /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:298:28
       1    1.3%      LazyCompile: ~Readable node:internal/streams/readable:181:18
       1  100.0%        LazyCompile: ~Duplex node:internal/streams/duplex:52:16
       1  100.0%          LazyCompile: ~Socket node:net:283:16
       1  100.0%            LazyCompile: ~WriteStream node:tty:85:21
-      1    1.3%      LazyCompile: ~Mongoose /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/index.js:60:18
-      1  100.0%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/index.js:1:1
+      1    1.3%      LazyCompile: ~Mongoose /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/index.js:60:18
+      1  100.0%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/index.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
-      1    1.3%      LazyCompile: ~Long.comp /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/long.js:312:36
-      1  100.0%        LazyCompile: ~Long.lessThanOrEqual /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/long.js:517:47
-      1  100.0%          LazyCompile: ~deserializeObject /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/parser/deserializer.js:65:27
-      1  100.0%            LazyCompile: ~deserializeObject /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/parser/deserializer.js:65:27
-      1    1.3%      LazyCompile: ~HandlebarsEnvironment /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/handlebars/dist/cjs/handlebars/base.js:46:31
-      1  100.0%        LazyCompile: ~create /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/handlebars/dist/cjs/handlebars.runtime.js:40:16
-      1  100.0%          Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/handlebars/dist/cjs/handlebars.runtime.js:1:1
+      1    1.3%      LazyCompile: ~Long.comp /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/long.js:312:36
+      1  100.0%        LazyCompile: ~Long.lessThanOrEqual /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/long.js:517:47
+      1  100.0%          LazyCompile: ~deserializeObject /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%            LazyCompile: ~deserializeObject /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/parser/deserializer.js:65:27
+      1    1.3%      LazyCompile: ~HandlebarsEnvironment /home/franco/Desktop/Backend/Entrega-29/node_modules/handlebars/dist/cjs/handlebars/base.js:46:31
+      1  100.0%        LazyCompile: ~create /home/franco/Desktop/Backend/Entrega-29/node_modules/handlebars/dist/cjs/handlebars.runtime.js:40:16
+      1  100.0%          Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/handlebars/dist/cjs/handlebars.runtime.js:1:1
       1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
-      1    1.3%      LazyCompile: ~Db /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/db.js:81:16
-      1  100.0%        LazyCompile: ~db /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:165:7
-      1  100.0%          LazyCompile: ~_setClient /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:836:20
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:792:20
-      1    1.3%      LazyCompile: ~CreateIndexOperation /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/operations/indexes.js:119:16
-      1  100.0%        LazyCompile: ~createIndex /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/collection.js:254:16
-      1  100.0%          LazyCompile: ~setAutoRemove /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/connect-mongo/build/main/lib/MongoStore.js:138:18
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
-      1    1.3%      LazyCompile: ~Connection.openUri /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:675:40
-      1  100.0%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/index.js:341:49
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:22
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1    1.3%      LazyCompile: ~Bitfield /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/sparse-bitfield/index.js:5:19
-      1  100.0%        LazyCompile: ~Bitfield /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/sparse-bitfield/index.js:5:19
-      1  100.0%          LazyCompile: ~read /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/saslprep/lib/memory-code-points.js:15:14
-      1  100.0%            Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/saslprep/lib/memory-code-points.js:1:1
+      1    1.3%      LazyCompile: ~Db /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/db.js:81:16
+      1  100.0%        LazyCompile: ~db /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:165:7
+      1  100.0%          LazyCompile: ~_setClient /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:836:20
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:792:20
+      1    1.3%      LazyCompile: ~CreateIndexOperation /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/operations/indexes.js:119:16
+      1  100.0%        LazyCompile: ~createIndex /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/collection.js:254:16
+      1  100.0%          LazyCompile: ~setAutoRemove /home/franco/Desktop/Backend/Entrega-29/node_modules/connect-mongo/build/main/lib/MongoStore.js:138:18
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
+      1    1.3%      LazyCompile: ~Connection.openUri /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:675:40
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/index.js:341:49
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:22
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1    1.3%      LazyCompile: ~Bitfield /home/franco/Desktop/Backend/Entrega-29/node_modules/sparse-bitfield/index.js:5:19
+      1  100.0%        LazyCompile: ~Bitfield /home/franco/Desktop/Backend/Entrega-29/node_modules/sparse-bitfield/index.js:5:19
+      1  100.0%          LazyCompile: ~read /home/franco/Desktop/Backend/Entrega-29/node_modules/saslprep/lib/memory-code-points.js:15:14
+      1  100.0%            Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/saslprep/lib/memory-code-points.js:1:1
       1    1.3%      LazyCompile: ~<anonymous> node:internal/url:682:12
       1  100.0%        Function: ^get href node:internal/url:734:11
       1  100.0%          Function: ^isURLInstance node:internal/url:1492:23
       1  100.0%            LazyCompile: ~fileURLToPath node:internal/url:1413:23
-      1    1.3%      LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/sdam/server.js:193:42
-      1  100.0%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:265:23
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:457:32
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:364:44
-      1    1.3%      LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:364:44
-      1  100.0%        LazyCompile: ~callback /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:63:31
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:88:85
-      1  100.0%            LazyCompile: ~onMessage /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:152:14
-      1    1.3%      LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/clustering.js:44:29
-      1  100.0%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/configuration.js:46:21
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            LazyCompile: ~configure /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/configuration.js:37:19
-      1    1.3%      LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/graceful-fs/clone.js:18:52
-      1  100.0%        /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%          LazyCompile: ~clone /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/graceful-fs/clone.js:9:16
-      1  100.0%            Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/graceful-fs/graceful-fs.js:1:1
-      1    1.3%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/url-state-machine.js:1:1
+      1    1.3%      LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/sdam/server.js:193:42
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:265:23
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:457:32
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:364:44
+      1    1.3%      LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:364:44
+      1  100.0%        LazyCompile: ~callback /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:63:31
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:88:85
+      1  100.0%            LazyCompile: ~onMessage /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:152:14
+      1    1.3%      LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/clustering.js:44:29
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/configuration.js:46:21
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            LazyCompile: ~configure /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/configuration.js:37:19
+      1    1.3%      LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/graceful-fs/clone.js:18:52
+      1  100.0%        /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%          LazyCompile: ~clone /home/franco/Desktop/Backend/Entrega-29/node_modules/graceful-fs/clone.js:9:16
+      1  100.0%            Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/graceful-fs/graceful-fs.js:1:1
+      1    1.3%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/url-state-machine.js:1:1
       1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
-      1    1.3%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/saslprep/lib/memory-code-points.js:1:1
+      1    1.3%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/saslprep/lib/memory-code-points.js:1:1
       1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
-      1    1.3%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:1:1
+      1    1.3%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:1:1
       1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
-      1    1.3%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/connection_string.js:1:1
+      1    1.3%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/connection_string.js:1:1
       1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
-      1    1.3%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/handlebars/dist/cjs/handlebars.js:1:1
+      1    1.3%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/handlebars/dist/cjs/handlebars.js:1:1
       1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
-      1    1.3%      Function: ^serializeInto /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/parser/serializer.js:550:23
-      1  100.0%        Function: ^serializeObject /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/parser/serializer.js:258:25
-      1  100.0%          Function: ^serializeInto /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/parser/serializer.js:550:23
-      1  100.0%            LazyCompile: ~serialize /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/bson.js:111:19
+      1    1.3%      Function: ^serializeInto /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/parser/serializer.js:550:23
+      1  100.0%        Function: ^serializeObject /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/parser/serializer.js:258:25
+      1  100.0%          Function: ^serializeInto /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/parser/serializer.js:550:23
+      1  100.0%            LazyCompile: ~serialize /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/bson.js:111:19
       1    1.3%      Function: ^emit node:events:340:44
-      1  100.0%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sdam/server.js:63:55
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sdam/server.js:63:55
       1  100.0%          Function: ^emit node:events:340:44
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sdam/monitor.js:204:52
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sdam/monitor.js:204:52
 
      34    2.1%  fwrite
-     31   91.2%    /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+     31   91.2%    /home/franco/.nvm/versions/node/v16.13.1/bin/node
       3    9.7%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
       3  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
       3  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
       3  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
-      3    9.7%      LazyCompile: ~createAppender /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/appenders/index.js:62:24
-      3  100.0%        LazyCompile: ~getAppender /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/appenders/index.js:48:21
-      3  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/appenders/index.js:112:41
-      3  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      3    9.7%      /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1   33.3%        LazyCompile: ~parseOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
-      1  100.0%          LazyCompile: ~MongoClient /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:781:31
+      3    9.7%      LazyCompile: ~createAppender /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/appenders/index.js:62:24
+      3  100.0%        LazyCompile: ~getAppender /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/appenders/index.js:48:21
+      3  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/appenders/index.js:112:41
+      3  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      3    9.7%      /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1   33.3%        LazyCompile: ~parseOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
+      1  100.0%          LazyCompile: ~MongoClient /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:781:31
       1   33.3%        LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
       1  100.0%          LazyCompile: ~resolve node:internal/modules/esm/loader:402:16
       1  100.0%            LazyCompile: ~getModuleJob node:internal/modules/esm/loader:221:21
-      1   33.3%        LazyCompile: ~Kareem.filter /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/kareem/index.js:321:35
-      1  100.0%          LazyCompile: ~applyHooks /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/model/applyHooks.js:32:20
-      1  100.0%            LazyCompile: ~compile /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/model.js:4802:33
-      1    3.2%      Script: ~<anonymous> file:///home/franco-medina/Desktop/Backend/Entrega-16/src/server.js:1:1
-      1  100.0%        /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+      1   33.3%        LazyCompile: ~Kareem.filter /home/franco/Desktop/Backend/Entrega-29/node_modules/kareem/index.js:321:35
+      1  100.0%          LazyCompile: ~applyHooks /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/model/applyHooks.js:32:20
+      1  100.0%            LazyCompile: ~compile /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/model.js:4802:33
+      1    3.2%      Script: ~<anonymous> file:///home/franco/Desktop/Backend/Entrega-29/src/server.js:1:1
+      1  100.0%        /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
       1  100.0%            LazyCompile: ~run node:internal/modules/esm/module_job:180:12
       1    3.2%      LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1017:18
       1  100.0%        LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1  100.0%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:969:33
-      1    3.2%      LazyCompile: ~supportsOpMsg /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connection.js:444:23
-      1  100.0%        LazyCompile: ~command /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connection.js:254:12
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:78:43
-      1  100.0%            LazyCompile: ~prepareHandshakeDocument /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:146:34
+      1    3.2%      LazyCompile: ~supportsOpMsg /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connection.js:444:23
+      1  100.0%        LazyCompile: ~command /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connection.js:254:12
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:78:43
+      1  100.0%            LazyCompile: ~prepareHandshakeDocument /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:146:34
       1    3.2%      LazyCompile: ~setupWarningHandler node:internal/bootstrap/pre_execution:141:29
       1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:22:36
       1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
       1    3.2%      LazyCompile: ~setStreamTimeout node:internal/stream_base_commons:254:26
-      1  100.0%        LazyCompile: ~makeConnection /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:241:24
-      1  100.0%          LazyCompile: ~connect /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:30:17
-      1  100.0%            LazyCompile: ~checkServer /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/sdam/monitor.js:139:21
+      1  100.0%        LazyCompile: ~makeConnection /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:241:24
+      1  100.0%          LazyCompile: ~connect /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:30:17
+      1  100.0%            LazyCompile: ~checkServer /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/sdam/monitor.js:139:21
       1    3.2%      LazyCompile: ~realpathSync node:fs:2408:22
       1  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
       1  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
       1  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
-      1    3.2%      LazyCompile: ~processIncomingData /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:79:29
-      1  100.0%        LazyCompile: ~_write /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:26:11
+      1    3.2%      LazyCompile: ~processIncomingData /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:79:29
+      1  100.0%        LazyCompile: ~_write /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:26:11
       1  100.0%          LazyCompile: ~writeOrBuffer node:internal/streams/writable:365:23
       1  100.0%            LazyCompile: ~_write node:internal/streams/writable:283:16
-      1    3.2%      LazyCompile: ~performInitialHandshake /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:62:33
-      1  100.0%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:31:63
-      1  100.0%          LazyCompile: ~callback /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:261:31
-      1  100.0%            LazyCompile: ~connectHandler /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/cmap/connect.js:305:28
+      1    3.2%      LazyCompile: ~performInitialHandshake /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:62:33
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:31:63
+      1  100.0%          LazyCompile: ~callback /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:261:31
+      1  100.0%            LazyCompile: ~connectHandler /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/cmap/connect.js:305:28
       1    3.2%      LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:81:28
       1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:22:36
       1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
       1    3.2%      LazyCompile: ~onParseError node:internal/url:551:22
-      1  100.0%        /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%        /home/franco/.nvm/versions/node/v16.13.1/bin/node
       1  100.0%          LazyCompile: ~URL node:internal/url:620:14
       1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
       1    3.2%      LazyCompile: ~nextTick node:internal/process/task_queues:104:18
       1  100.0%        LazyCompile: ~construct node:internal/streams/destroy:225:19
       1  100.0%          LazyCompile: ~Writable node:internal/streams/writable:219:18
       1  100.0%            LazyCompile: ~WriteStream node:internal/fs/streams:306:21
-      1    3.2%      LazyCompile: ~keys /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb-connection-string-url/lib/index.js:57:13
-      1  100.0%        LazyCompile: ~parseOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
-      1  100.0%          LazyCompile: ~MongoClient /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:781:31
-      1    3.2%      LazyCompile: ~createHttpErrorConstructor /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/http-errors/index.js:118:37
-      1  100.0%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/http-errors/index.js:1:1
+      1    3.2%      LazyCompile: ~keys /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb-connection-string-url/lib/index.js:57:13
+      1  100.0%        LazyCompile: ~parseOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:208:22
+      1  100.0%          LazyCompile: ~MongoClient /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:781:31
+      1    3.2%      LazyCompile: ~createHttpErrorConstructor /home/franco/Desktop/Backend/Entrega-29/node_modules/http-errors/index.js:118:37
+      1  100.0%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/http-errors/index.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1    3.2%      LazyCompile: ~construct node:internal/streams/destroy:225:19
       1  100.0%        LazyCompile: ~Writable node:internal/streams/writable:219:18
       1  100.0%          LazyCompile: ~WriteStream node:internal/fs/streams:306:21
-      1  100.0%            LazyCompile: ~WriteStream /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/graceful-fs/graceful-fs.js:320:24
-      1    3.2%      LazyCompile: ~URLStateMachine /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/url-state-machine.js:481:25
-      1  100.0%        LazyCompile: ~module.exports.basicURLParse /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/url-state-machine.js:1206:41
-      1  100.0%          LazyCompile: ~URLImpl /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/URL-impl.js:7:14
-      1  100.0%            LazyCompile: ~exports.setup /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/whatwg-url/lib/URL.js:49:17
-      1    3.2%      LazyCompile: ~Long.compare /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/bson/lib/long.js:292:39
-      1  100.0%        LazyCompile: ~compareTopologyVersion /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sdam/server_description.js:184:32
-      1  100.0%          LazyCompile: ~isStaleServerDescription /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sdam/topology.js:644:34
-      1  100.0%            LazyCompile: ~serverUpdateHandler /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sdam/topology.js:360:24
-      1    3.2%      LazyCompile: ~Db /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/db.js:81:16
-      1  100.0%        LazyCompile: ~db /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/mongo_client.js:176:7
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
-      1  100.0%            /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            LazyCompile: ~WriteStream /home/franco/Desktop/Backend/Entrega-29/node_modules/graceful-fs/graceful-fs.js:320:24
+      1    3.2%      LazyCompile: ~URLStateMachine /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/url-state-machine.js:481:25
+      1  100.0%        LazyCompile: ~module.exports.basicURLParse /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/url-state-machine.js:1206:41
+      1  100.0%          LazyCompile: ~URLImpl /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/URL-impl.js:7:14
+      1  100.0%            LazyCompile: ~exports.setup /home/franco/Desktop/Backend/Entrega-29/node_modules/whatwg-url/lib/URL.js:49:17
+      1    3.2%      LazyCompile: ~Long.compare /home/franco/Desktop/Backend/Entrega-29/node_modules/bson/lib/long.js:292:39
+      1  100.0%        LazyCompile: ~compareTopologyVersion /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sdam/server_description.js:184:32
+      1  100.0%          LazyCompile: ~isStaleServerDescription /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sdam/topology.js:644:34
+      1  100.0%            LazyCompile: ~serverUpdateHandler /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sdam/topology.js:360:24
+      1    3.2%      LazyCompile: ~Db /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/db.js:81:16
+      1  100.0%        LazyCompile: ~db /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/mongo_client.js:176:7
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
+      1  100.0%            /home/franco/.nvm/versions/node/v16.13.1/bin/node
       1    3.2%      Function: ~<anonymous> node:internal/modules/cjs/helpers:1:1
       1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
       1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
@@ -679,11 +679,11 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
       1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
       1  100.0%            Function: ~<anonymous> node:internal/fs/promises:1:1
-      1    3.2%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/sift/lib/index.js:138:50
-      1  100.0%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/sift/lib/index.js:5:19
-      1  100.0%          Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/sift/lib/index.js:1:11
-      1  100.0%            Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/sift/lib/index.js:1:1
-      1    3.2%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/debug/src/node.js:1:1
+      1    3.2%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/sift/lib/index.js:138:50
+      1  100.0%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/sift/lib/index.js:5:19
+      1  100.0%          Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/sift/lib/index.js:1:11
+      1  100.0%            Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/sift/lib/index.js:1:1
+      1    3.2%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/debug/src/node.js:1:1
       1  100.0%        LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1  100.0%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:969:33
@@ -693,8 +693,8 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1  100.0%            LazyCompile: ~Module._resolveLookupPaths node:internal/modules/cjs/loader:667:38
 
      28    1.7%  /usr/lib/x86_64-linux-gnu/libc-2.31.so
-     24   85.7%    /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      5   20.8%      /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+     24   85.7%    /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      5   20.8%      /home/franco/.nvm/versions/node/v16.13.1/bin/node
       1   20.0%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
       1  100.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
@@ -707,11 +707,11 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1   20.0%        Function: ^FastBuffer node:internal/buffer:958:14
       1  100.0%          Function: ^createUnsafeBuffer node:internal/buffer:1059:28
       1  100.0%            Function: ^allocate node:buffer:397:18
-      1   20.0%        Function: ^<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/pluralize.js:86:34
-      1  100.0%          /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
-      1  100.0%            LazyCompile: ~pluralize /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/helpers/pluralize.js:82:19
+      1   20.0%        Function: ^<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/pluralize.js:86:34
+      1  100.0%          /home/franco/.nvm/versions/node/v16.13.1/bin/node
+      1  100.0%            LazyCompile: ~pluralize /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/helpers/pluralize.js:82:19
       2    8.3%      LazyCompile: ~onParseError node:internal/url:551:22
-      2  100.0%        /home/franco-medina/.nvm/versions/node/v16.13.1/bin/node
+      2  100.0%        /home/franco/.nvm/versions/node/v16.13.1/bin/node
       2  100.0%          LazyCompile: ~URL node:internal/url:620:14
       2  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
       2    8.3%      LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
@@ -724,32 +724,32 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       2    8.3%      Function: ^Module._load node:internal/modules/cjs/loader:757:24
       2  100.0%        Function: ^Module.require node:internal/modules/cjs/loader:997:36
       2  100.0%          Function: ^require node:internal/modules/cjs/helpers:101:31
-      1   50.0%            Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/document.js:1:1
-      1   50.0%            Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/appenders/index.js:1:1
-      1    4.2%      LazyCompile: ~wrapfunction /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/depd/index.js:397:23
-      1  100.0%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/express/lib/utils.js:1:1
+      1   50.0%            Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/document.js:1:1
+      1   50.0%            Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/appenders/index.js:1:1
+      1    4.2%      LazyCompile: ~wrapfunction /home/franco/Desktop/Backend/Entrega-29/node_modules/depd/index.js:397:23
+      1  100.0%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/express/lib/utils.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
-      1    4.2%      LazyCompile: ~resolveBSONOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/bson.js:53:28
-      1  100.0%        LazyCompile: ~resolveOptions /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/utils.js:739:24
-      1  100.0%          LazyCompile: ~createCollection /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/db.js:153:21
-      1  100.0%            LazyCompile: ~createCollection /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/lib/connection.js:399:82
+      1    4.2%      LazyCompile: ~resolveBSONOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/bson.js:53:28
+      1  100.0%        LazyCompile: ~resolveOptions /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/utils.js:739:24
+      1  100.0%          LazyCompile: ~createCollection /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/db.js:153:21
+      1  100.0%            LazyCompile: ~createCollection /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/lib/connection.js:399:82
       1    4.2%      LazyCompile: ~realpathSync node:fs:2408:22
       1  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
       1  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
       1  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
-      1    4.2%      LazyCompile: ~get isPinned /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/sessions.js:126:17
-      1  100.0%        LazyCompile: ~executeWithServerSelection /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/operations/execute_operation.js:76:36
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/operations/execute_operation.js:16:48
-      1  100.0%            LazyCompile: ~maybePromise /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongodb/lib/utils.js:398:22
+      1    4.2%      LazyCompile: ~get isPinned /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/sessions.js:126:17
+      1  100.0%        LazyCompile: ~executeWithServerSelection /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/operations/execute_operation.js:76:36
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/operations/execute_operation.js:16:48
+      1  100.0%            LazyCompile: ~maybePromise /home/franco/Desktop/Backend/Entrega-29/node_modules/mongodb/lib/utils.js:398:22
       1    4.2%      LazyCompile: ~formatRaw node:internal/util/inspect:796:19
       1  100.0%        LazyCompile: ~formatValue node:internal/util/inspect:726:21
       1  100.0%          LazyCompile: ~inspect node:internal/util/inspect:286:17
-      1  100.0%            LazyCompile: ~createAppender /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/log4js/lib/appenders/index.js:62:24
-      1    4.2%      LazyCompile: ~createTopology /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:44:24
-      1  100.0%        LazyCompile: ~connect /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:8:17
-      1  100.0%          LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:126:52
-      1  100.0%            LazyCompile: ~maybePromise /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/utils.js:397:22
+      1  100.0%            LazyCompile: ~createAppender /home/franco/Desktop/Backend/Entrega-29/node_modules/log4js/lib/appenders/index.js:62:24
+      1    4.2%      LazyCompile: ~createTopology /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:44:24
+      1  100.0%        LazyCompile: ~connect /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:8:17
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:126:52
+      1  100.0%            LazyCompile: ~maybePromise /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/utils.js:397:22
       1    4.2%      LazyCompile: ~Module._extensions..json node:internal/modules/cjs/loader:1158:39
       1  100.0%        Function: ^Module.load node:internal/modules/cjs/loader:969:33
       1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
@@ -762,12 +762,12 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1  100.0%        Function: ^toRealPath node:internal/modules/cjs/loader:393:20
       1  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
       1  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
-      1    4.2%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/streamroller/node_modules/fs-extra/lib/mkdirs/index.js:1:1
+      1    4.2%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/streamroller/node_modules/fs-extra/lib/mkdirs/index.js:1:1
       1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
-      1    4.2%      Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:6:28
-      1  100.0%        Function: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:1:1
+      1    4.2%      Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:6:28
+      1  100.0%        Function: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:1:1
       1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
       1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
       1    4.2%      Function: ^realpathSync node:fs:2408:22
@@ -775,7 +775,7 @@ Statistical profiling result from CONCLGisolate-0x5b25020-31956-v8.log, (1617 ti
       1  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
       1  100.0%            LazyCompile: ~tryPackage node:internal/modules/cjs/loader:338:20
       1    4.2%      Function: ^emit node:events:340:44
-      1  100.0%        LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/sdam/monitor.js:200:52
-      1  100.0%          LazyCompile: ~callback /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:63:31
-      1  100.0%            LazyCompile: ~<anonymous> /home/franco-medina/Desktop/Backend/Entrega-16/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:88:85
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/sdam/monitor.js:200:52
+      1  100.0%          LazyCompile: ~callback /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:63:31
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Desktop/Backend/Entrega-29/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:88:85
 

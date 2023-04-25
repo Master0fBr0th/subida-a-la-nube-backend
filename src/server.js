@@ -1,8 +1,8 @@
 import express from "express";
-import productRouter from './src/routes/product.js';
-import cartRouter from './src/routes/cart.js';
-import userRouter from './src/routes/user.js';
-import otherRouter from './src/routes/other.js';
+import productRouter from './routes/product.route.js';
+import cartRouter from './routes/cart.route.js';
+import userRouter from './routes/user.route.js';
+import otherRouter from './routes/other.route.js';
 import session from 'express-session';
 import {engine} from 'express-handlebars';
 import path from 'path';
@@ -10,8 +10,8 @@ import {fileURLToPath} from 'url';
 import mongoStore from 'connect-mongo';
 import compression from 'compression';
 import minimist from 'minimist';
-import logger from "./src/loggers/Log4jsLogger.js";
-import loggerMiddleware from "./src/middlewares/routesLogger.middleware.js";
+import logger from "./utils/loggers/Log4jsLogger.js";
+import loggerMiddleware from "./middlewares/routesLogger.middleware.js";
 const app = express();
 
 const __filename = fileURLToPath(import.meta.url);
@@ -57,7 +57,9 @@ app.use('/test', otherRouter);
 
 app.all("*", (req, res) => {
     res.status(404).json({"error": "ruta no existente"})
-});
+  });
+
+/* --------------- Leer el puerto por consola o setear default -------------- */
 
 const options = {
     alias: {
@@ -77,7 +79,7 @@ app._router.stack.forEach(function (r) {
 const { PORT } = minimist(process.argv.slice(2), options);
 
 const server = app.listen(PORT, () => {
-    logger.info(` Server started at http://localhost:${PORT}`)
+    logger.info(`🚀 Server started at http://localhost:${PORT}`)
     })
     
 server.on('error', (err) => logger.error(err));
