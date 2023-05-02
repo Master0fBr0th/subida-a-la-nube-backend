@@ -17,7 +17,7 @@ const Schema = new mongoose.Schema({
     description: {
         type: String,
         required: true,
-        max: 1500
+        max: 570
     },
     code: {
         type: String,
@@ -27,12 +27,12 @@ const Schema = new mongoose.Schema({
     },
     image: {
         type: String,
-        max: 100
+        max: 250
     },
     stock: {
         type: Number,
         required: true,
-        max: 8000
+        max: 7000
     }
 })
 

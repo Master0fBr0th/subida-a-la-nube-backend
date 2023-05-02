@@ -8,7 +8,7 @@ export async function create(req, res) {
 
     newCart
         ? res.status(200).json({"success": "Producto agregado con ID " + newCart._id})
-        : res.status(500).json({"error": "hubo un error"})
+        : res.status(500).json({"error": "Hubo un error"})
 }
 
 export async function remove(req, res) {
@@ -16,8 +16,8 @@ export async function remove(req, res) {
     const wasDeleted = await carritoService.deleteById(id);
 
     wasDeleted
-        ? res.status(200).json({"success": "carrito eliminado con exito"})
-        : res.status(404).json({"error": "carrito no encontrado"})
+        ? res.status(200).json({"success": "carro eliminado con éxito"})
+        : res.status(404).json({"error": "carro no encontrado"})
 }
 
 export async function addProduct(req, res) {
@@ -29,7 +29,7 @@ export async function addProduct(req, res) {
     if (productExists) {
         await carritoService.saveProductToCart(id, body)
     } else {
-        res.status(404).json({"error": "producto no encontrado"});
+        res.status(404).json({"error": "Producto no encontrado"});
     }
 }
 
@@ -39,7 +39,7 @@ export async function getProducts(req, res) {
 
     cartProducts
         ? res.status(200).json(cartProducts)
-        : res.status(404).json({"error": "carrito no encontrado"})
+        : res.status(404).json({"error": "Carrito no encontrado"})
 }
 
 export async function removeProduct(req, res) {
@@ -49,5 +49,5 @@ export async function removeProduct(req, res) {
 
     wasDeleted
         ? res.status(200).json({"success": "ese producto ya no esta en el carrito"})
-        : res.status(400).json({"error": "hubo un problema"})
+        : res.status(400).json({"error": "Hubo un problema"})
 }

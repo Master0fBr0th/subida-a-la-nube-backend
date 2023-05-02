@@ -24,11 +24,10 @@ export async function signUp(req, res) {
     const { body } = req;
     const newUser = await usuarioService.createUser(body);
 
-    if (newUser) {sendGmail('Nuevo usuario creado', newUserTemplateEmail);
-        
-        res.status(200).json({"success": "User agregado con ID " + newUser._id})
+    if (newUser) {
+        res.status(200).json({"success": "Usuario agregada con ID " + newUser._id})
     } else {
-        res.status(400).json({"error": "hubo un error, please verify the body content match the schema"})
+        res.status(400).json({"error": "hubo un error, verifique que el contenido del cuerpo coincida con el esquema"})
     }
 
 }

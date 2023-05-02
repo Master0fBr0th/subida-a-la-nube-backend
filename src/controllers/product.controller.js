@@ -15,7 +15,7 @@ export async function getById(req, res) {
 
     product
         ? res.status(200).json(product)
-        : res.status(400).json({"error": "product not found"})
+        : res.status(400).json({"error": "Producto no encontrado"})
 }
 
 export async function create(req, res) {
@@ -23,8 +23,8 @@ export async function create(req, res) {
     const newProduct = await productoService.create(body);
 
     newProduct
-        ? res.status(200).json({"success": "Product agregado con ID " + newProduct._id})
-        : res.status(400).json({"error": "hubo un error, please verify the body content match the schema"})
+        ? res.status(200).json({"success": "Productp agregado con ID " + newProduct._id})
+        : res.status(400).json({"error": "hubo un error, verifique que el contenido del cuerpo coincida con el esquema"})
 }
 
 export async function update(req, res) {
@@ -33,8 +33,8 @@ export async function update(req, res) {
     const wasUpdated = await productoService.updateProductById(id, body);
 
     wasUpdated
-        ? res.status(200).json({"success": "producto actualizado"})
-        : res.status(404).json({"error": "producto no encontrado o contenido del body no válido."})
+        ? res.status(200).json({"success": "producto Actualizado"})
+        : res.status(404).json({"error": "producto no encontrado o contenido del cuerpo no válido."})
 }
 
 export async function remove(req, res) {
@@ -42,6 +42,6 @@ export async function remove(req, res) {
     const wasDeleted = await productoService.deleteById(id)
 
     wasDeleted
-        ? res.status(200).json({"success": "product eliminado con exito"})
-        : res.status(404).json({"error": "producto no encontrado"})
+        ? res.status(200).json({"success": "producto eliminado con éxito"})
+        : res.status(404).json({"error": "Producto no encontrado"})
 }

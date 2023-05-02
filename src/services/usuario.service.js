@@ -35,7 +35,7 @@ export class UsuarioService {
             });
             
             if (!user) {
-                logger.info(`Usuario '${object.username}' no existe`)
+                logger.info(`User '${object.username}' does not exist`)
                 return null;   
             } 
             
